@@ -8,7 +8,13 @@ function ChartTypes({ handleChange }) {
   return (
     <div onChange={onChartChoise}>
       <label className="chartType">
-        <input type="radio" id="radio1" name="chartType" value="Bar" />
+        <input
+          defaultChecked
+          type="radio"
+          id="radio1"
+          name="chartType"
+          value="Bar"
+        />
         Bar chart
       </label>
       <label className="chartType">
