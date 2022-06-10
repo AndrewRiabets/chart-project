@@ -1,0 +1,18 @@
+.chartType {
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+@media screen and (min-width: 768px) {
+    .chartType {
+        font-size: 21px;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .chartType {
+        font-size: 25px;
+    }
+}
